@@ -239,10 +239,10 @@ public class MapDemoActivity extends AppCompatActivity implements GoogleMap.OnMa
     }
 
     @Override
-    public void onMapLongClick(LatLng latLng) {
+    public void onMapLongClick(LatLng point) {
         Toast.makeText(this, "Long Press", Toast.LENGTH_LONG).show();
         //LatLng point = getMyLocation();
-        //showAlertDialogForPoint(point);
+        showAlertDialogForPoint(point);
     }
 
     // Display the alert that adds the marker
